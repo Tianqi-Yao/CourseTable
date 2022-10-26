@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".newClass">
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/et_coursename"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/et_location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -33,7 +33,7 @@
         android:minHeight="48dp"
         android:textColorHint="#757575"
         app:layout_constraintStart_toEndOf="@+id/tv_location"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/et_coursename"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <EditText
@@ -49,7 +49,7 @@
         android:minHeight="48dp"
         android:textColorHint="#757575"
         app:layout_constraintStart_toEndOf="@+id/tv_time"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/et_location"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <TextView
